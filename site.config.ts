@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'YoPlus Blog',
+  name: '福建XX科技',
   domain: 'blog.yoplus.xyz',
-  author: 'YoPlus',
+  author: '福建XX科技',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
@@ -52,14 +52,14 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   navigationStyle: 'default'
   // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationLinks: [
+    {
+      title: 'About1',
+      pageId: '190129b98777812b8f46dbec14832147'
+    },
+    {
+      title: 'Contact',
+      pageId: '190129b9877781ffba5ed4643511f6da'
+    }
+  ]
 })
